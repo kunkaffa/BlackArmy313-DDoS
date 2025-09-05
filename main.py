@@ -32,7 +32,7 @@ def log_attack_status(message, level='info', print_to_terminal=True):
             print(f"{Fore.YELLOW}|    [WARNING] {message.ljust(63)}|")
 
 
-# Fungsi untuk Menampilkan Header BASE dengan Warna
+# Fungsi untuk Menampilkan Header BLACK-ARMY dengan Warna
 def display_header():
     header_lines = [
     f"{Fore.GREEN}══════════════════════════════════════════════════════════════════════════",     
