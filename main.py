@@ -70,7 +70,7 @@ def display_header():
         f"{Fore.WHITE}",      
         f"{Fore.YELLOW}════════════════════════════════════════════════════════════════════════════",
     ]
-for line in header_lines:
+    for line in header_lines:
     print(line)
     # Versi dan URL
     print(f"{Fore.WHITE}{Style.BRIGHT}{' ' * 57}v.1.0")
